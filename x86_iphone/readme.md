@@ -158,7 +158,7 @@ this is awesome...
 ### Conclusions
 Nothing really, I just found this funny and wanted to share.
 If you ever felt like you missed an x86 core in your life, now you have one (or several? I still need to investigate) always with you, so you won't feel alone ever again.
-I still did no thave time to analyse the other models, but my guess is that they're also running on x86.
+I still did not have time to analyse the other models, but my guess is that they're also running on x86.
 
 What will happen next? Are we going to get a z80 inside our phones? Why not a 6502? Hell, I would love to run C64 basic interpreter natively inside my phone....
 
