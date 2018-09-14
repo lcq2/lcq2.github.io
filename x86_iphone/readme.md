@@ -171,3 +171,4 @@ Things you may find useful on the subject, in no particular order:
 * [All Your Baseband Are Belong To Us](http://archive.hack.lu/2010/Weinmann-All-Your-Baseband-Are-Belong-To-Us-slides.pdf) by Ralf-Philipp Weinmann
 * [Breaking Band - reverse engineering and exploiting the shannon baseband](https://comsecuris.com/slides/recon2016-breaking_band.pdf) by Nico Golde, Daniel Komaromy
 * [Path of Least Resistance: Cellular Baseband to Application Processor Escalation on Mediatek Devices](https://comsecuris.com/blog/posts/path_of_least_resistance/) by György Miru
+* [There's Life in the Old Dog Yet: Tearing New Holes into Intel/iPhone Cellular Modems](https://comsecuris.com/blog/posts/theres_life_in_the_old_dog_yet_tearing_new_holes_into_inteliphone_cellular_modems/) by Nico Golde
