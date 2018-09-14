@@ -163,3 +163,11 @@ I still did no thave time to analyse the other models, but my guess is that they
 What will happen next? Are we going to get a z80 inside our phones? Why not a 6502? Hell, I would love to run C64 basic interpreter natively inside my phone....
 
 No really, I'm not criticizing Apple or Intel for using an x86 core, I don't really care, but...my PERSONAL opinion is that something is going really wrong in this world.
+
+### References
+Things you may find useful on the subject, in no particular order:
+* [Baseband Attacks: Remote Exploitation of Memory Corruptions in CellularProtocol Stacks](https://www.usenix.org/system/files/conference/woot12/woot12-final24.pdf) by Ralf-Philipp Weinmann
+* [Reverse engineering a Qualcomm baseband](https://events.ccc.de/congress/2011/Fahrplan/attachments/2022_11-ccc-qcombbdbg.pdf) by Guillaume Delugré
+* [All Your Baseband Are Belong To Us](http://archive.hack.lu/2010/Weinmann-All-Your-Baseband-Are-Belong-To-Us-slides.pdf) by Ralf-Philipp Weinmann
+* [Breaking Band - reverse engineering and exploiting the shannon baseband](https://comsecuris.com/slides/recon2016-breaking_band.pdf) by Nico Golde, Daniel Komaromy
+* [Path of Least Resistance: Cellular Baseband to Application Processor Escalation on Mediatek Devices](https://comsecuris.com/blog/posts/path_of_least_resistance/) by György Miru
