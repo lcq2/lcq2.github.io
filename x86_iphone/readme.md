@@ -15,7 +15,7 @@ Apple is nothing special in this regard, up until the iPhone8/iPhoneX, they used
 As you may know, Apple decided to drop Qualcomm and now they're using exclusively Intel based basebands, so we will concentrate on this.
 
 ### The old Intel baseband
-Let's take a look at the old generation of Intel baseband, the one used up to iPhoneX. If you download an ipsw GSM firmware and unzip it (ipsw files are just zip files), there will be, amongst other things, a "Firmware" folder. Inside this folder you will see a couple of files: "ICE17-1.04.52.Release.bbfw" and "Mav17-1.91.00.Release.bbfw". The version will change of course, these are for iPhone8 with iOS 11beta3. Those files are again zip files and we're interested in ICE17-xxx, let's unzip it and see the contents:
+Let's take a look at the old generation of Intel baseband, the one used up to iPhoneX. If you download an ipsw GSM firmware and unzip it (ipsw files are just zip files), there will be, amongst other things, a "Firmware" folder. Inside this folder you will see a couple of files: "ICE17-1.04.52.Release.bbfw" and "Mav17-1.91.00.Release.bbfw". The version will change of course, these are for iPhone8 with iOS 11.4beta3. Those files are again zip files and we're interested in ICE17-xxx, let's unzip it and see the contents:
 
 ```console
 John-MacBook-Air:ICE user$ ls -al
