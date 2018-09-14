@@ -1,9 +1,9 @@
-# x86 find its way into your iPhone
+# x86 finds its way into your iPhone
 
 ### Introduction
-In one of my several lifes, I'm supposed to be a vulnerability researcher working on baseband exploitation. As every vulnerability researcher knows, being up to date with recent developments is of utmost importance for the success of your job. So of course, after Apple announced its new, shiny, big, bigger and biggest line of iPhone smartphones, I downloaded some OTA firmwares from ipsw.me and started to look into the new baseband firmware.
+In one of my several lives, I'm supposed to be a vulnerability researcher working on baseband exploitation. As every vulnerability researcher knows, being up to date with recent developments is of utmost importance for the success of your job. So of course, after Apple announced its new, shiny, big, bigger and biggest line of iPhone smartphones, I downloaded some OTA firmwares from ipsw.me and started to look into the new baseband firmware.
 
-What I discovered sent a shiver of horror down my spine, the kind of horror that only playing Doom at nighttime, alone in your room, without lights, can produce. Stay with me and I'll tell you what I found...
+What I discovered sent a shiver of horror down my spine, the kind of horror that only playing Doom at nighttime, alone in your room, without lights, can produce. Bear with me and I'll tell you what I found...
 
 *NOTE*: this is just some preliminary analysis and I'm not going to describe anything related to baseband rerversing, it's not the scope of this document.
 
@@ -82,7 +82,7 @@ Waking up this morning, I wanted to analyse the new baseband firmware, to get an
 
 I wake up again after about an hour, I download again the ipsw for the same model and I go through all the same steps as usual. Still invalid code. My first guess was that the code is encrypted, so I use some random tool to analyse the entropy, nothing, it's very low. Ok, you cannot trust tools these days, so I wrote my own script to calculate the entropy and again, is too low to be encrypted and anyway, it was also clear by a quick "eye" analysis, even though you should not trust your eyes that much.
 
-I stare at the screen for several minutes, thinking what the fu** is going on. But of course, as a reverser you should never give up, so I try EVERY POSSIBLE RISC ARCHITECTURE I KNOW, and trust me, they're a lot (no I mean, A LOT, I reversed everything from Dreamcast SH4 to Fujitsu/Siemens running inside my Nikon D90), and...
+I stare at the screen for several minutes, thinking what the fu** is going on. But of course, as a reverser you should never give up, so I try EVERY POSSIBLE RISC ARCHITECTURE I KNOW, and trust me, there's a lot of them (no I mean, A LOT, I reversed everything from Dreamcast SH4 to Fujitsu/Siemens running inside my Nikon D90), and...
 
 Nothing, all I get is garbage. My next guess is: ok then, it's encrypted with some entropy-preserving algorithm. I try some cryptoanalisis approaches I know, even though is not my main job and I'm no expert at it, still nothing.
 
